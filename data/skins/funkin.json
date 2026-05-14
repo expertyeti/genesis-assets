@@ -4,7 +4,7 @@
   },
   "gameplay": {
     "strumline": {
-      "assetPath": "notes/noteStrumline",
+      "path": "notes/noteStrumline",
       "scale": 0.7,
       "alpha": 1.0,
       "offsets": {
@@ -36,10 +36,10 @@
       }
     },
     "notes": {
-      "assetPath": "notes/notes",
+      "path": "notes/notes",
       "scale": 0.7,
       "alpha": 1.0,
-      "Offset": [0, 0],
+      "Offset": [25, 0],
       "animations": {
         "left": "noteLeft",
         "down": "noteDown",
@@ -48,10 +48,10 @@
       }
     },
     "sustains": {
-      "assetPath": "notes/NOTE_hold_assets",
+      "path": "notes/NOTE_hold_assets",
       "scale": 0.6,
-      "alpha": 1.0,
-      "Offset": [-4, 0],
+      "alpha": 0.9,
+      "Offset": [-2, 0],
       "OffsetHit": [0, 0],
       "animations": {
         "left": {
@@ -73,10 +73,10 @@
       }
     },
     "noteSplashes": {
-      "assetPath": "notes/noteSplashes",
+      "path": "notes/noteSplashes",
       "scale": 0.9,
       "alpha": 1,
-      "Offset": [0, -10],
+      "Offset": [40, 40],
       "animations": {
         "left": ["note impact 1 purple", "note impact 2 purple"],
         "down": ["note impact 1 blue", "note impact 2 blue"],
@@ -90,7 +90,7 @@
       "Offset": [-10, 45],
       "directions": {
         "left": {
-          "assetPath": "notes/holdCovers/holdCoverPurple",
+          "path": "notes/holdCovers/holdCoverPurple",
           "animations": {
             "start": "holdCoverStartPurple",
             "hold": "holdCoverPurple",
@@ -98,7 +98,7 @@
           }
         },
         "down": {
-          "assetPath": "notes/holdCovers/holdCoverBlue",
+          "path": "notes/holdCovers/holdCoverBlue",
           "animations": {
             "start": "holdCoverStartBlue",
             "hold": "holdCoverBlue",
@@ -106,7 +106,7 @@
           }
         },
         "up": {
-          "assetPath": "notes/holdCovers/holdCoverGreen",
+          "path": "notes/holdCovers/holdCoverGreen",
           "animations": {
             "start": "holdCoverStartGreen",
             "hold": "holdCoverGreen",
@@ -114,7 +114,7 @@
           }
         },
         "right": {
-          "assetPath": "notes/holdCovers/holdCoverRed",
+          "path": "notes/holdCovers/holdCoverRed",
           "animations": {
             "start": "holdCoverStartRed",
             "hold": "holdCoverRed",
@@ -124,24 +124,34 @@
       }
     }
   },
+  "misses": {
+    "sounds": {
+      "volume": 0.8,
+      "path": [
+        "miss/missnote1.ogg",
+        "miss/missnote2.ogg",
+        "miss/missnote3.ogg"
+      ]
+    }
+  },
   "ui": {
     "countdown": {
       "three": {
         "audio": {
-          "assetPath": "count/sound/introTHREE",
+          "path": "count/sound/introTHREE",
           "volume": 1.0
         },
         "image": {
-          "assetPath": null
+          "path": null
         }
       },
       "two": {
         "audio": {
-          "assetPath": "count/sound/introTWO",
+          "path": "count/sound/introTWO",
           "volume": 1.0
         },
         "image": {
-          "assetPath": "count/img/ready",
+          "path": "count/img/ready",
           "scale": 1.0,
           "alpha": 1.0
         }
@@ -152,18 +162,18 @@
           "volume": 1.0
         },
         "image": {
-          "assetPath": "count/img/set",
+          "path": "count/img/set",
           "scale": 1.0,
           "alpha": 1.0
         }
       },
       "go": {
         "audio": {
-          "assetPath": "count/sound/introGO",
+          "path": "count/sound/introGO",
           "volume": 1.0
         },
         "image": {
-          "assetPath": "count/img/go",
+          "path": "count/img/go",
           "scale": 1.0,
           "alpha": 1.0
         }
@@ -172,14 +182,14 @@
     "judgments": {
       "perfect": {
         "assetPath": null,
-        "scale": 0.65 
+        "scale": 0.65
       },
       "sick": {
-        "assetPath": "popUp/judgment/sick",
+        "path": "popUp/judgment/sick",
         "scale": 0.65
       },
       "good": {
-        "assetPath": "popUp/judgment/good",
+        "path": "popUp/judgment/good",
         "scale": 0.65
       },
       "bad": {
@@ -210,11 +220,6 @@
     "bars": {
       "health": {
         "path": "bars/healthBar",
-        "scale": "1",
-        "alpha": "1"
-      },
-      "time": {
-        "path": "bars/",
         "scale": "1",
         "alpha": "1"
       }

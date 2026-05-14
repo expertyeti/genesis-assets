@@ -1,12 +1,13 @@
 {
+  "music": "FreakyMenu.ogg",
   "introSequences": [
     {
       "id": "default",
-      "bpm": 120,
+      "bpm": 102,
       "steps": [
         {
           "beat": 1,
-          "text": ["Anomaly Games"]
+          "text": ["Britex"]
         },
         {
           "beat": 3,
@@ -21,40 +22,40 @@
           "text": ["Not associated", "with"]
         },
         {
-          "beat": 8,
+          "beat": 7,
           "text": ["Funkin Crew Inc."],
-          "img": { "id": "newgrounds", "scale": 0.65 }
+          "img": { "id": "menu/intro/newgrounds_logo.png", "scale": 0.65 }
+        },
+        {
+          "beat": 8,
+          "clear": true
         },
         {
           "beat": 9,
-          "clear": true
-        },
-        {
-          "beat": 10,
           "action": "random-text-1"
         },
         {
-          "beat": 12,
+          "beat": 11,
           "action": "random-text-2"
         },
         {
-          "beat": 13,
+          "beat": 12,
           "clear": true
         },
         {
-          "beat": 14,
+          "beat": 13,
           "text": ["Friday"]
         },
         {
-          "beat": 15,
+          "beat": 14,
           "text": ["Night"]
         },
         {
-          "beat": 16,
+          "beat": 15,
           "text": ["Funkin"]
         },
         {
-          "beat": 18,
+          "beat": 16,
           "action": "skipIntro"
         }
       ]

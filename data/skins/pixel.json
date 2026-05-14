@@ -5,8 +5,9 @@
   },
   "gameplay": {
     "strumline": {
-      "assetPath": "notes/noteStrumline",
+      "path": "notes/noteStrumline",
       "scale": 6,
+      "spacing": 112,
       "alpha": 1.0,
       "offsets": {
         "static": [0, 0],
@@ -37,7 +38,7 @@
       }
     },
     "notes": {
-      "assetPath": "notes/notes",
+      "path": "notes/notes",
       "scale": 6,
       "alpha": 1.0,
       "Offset": [0, 0],
@@ -49,10 +50,10 @@
       }
     },
     "sustains": {
-      "assetPath": "notes/hold_notes",
+      "path": "notes/hold_notes",
       "scale": 0.7,
       "alpha": 1.0,
-      "Offset": [20, -10],
+      "Offset": [20, 20],
       "OffsetHit": [0, 40],
       "animations": {
         "left": {
@@ -74,7 +75,7 @@
       }
     },
     "noteSplashes": {
-      "assetPath": "notes/noteSplashes",
+      "path": "notes/noteSplashes",
       "atialiasing": false,
       "scale": 4,
       "alpha": 1,
@@ -94,7 +95,7 @@
       "Offset": [140.5, 18.5],
       "directions": {
         "left": {
-          "assetPath": "notes/pixelNoteHoldCover",
+          "path": "notes/pixelNoteHoldCover",
           "animations": {
             "start": "loop0000",
             "hold": "loop",
@@ -102,7 +103,7 @@
           }
         },
         "down": {
-          "assetPath": "notes/pixelNoteHoldCover",
+          "path": "notes/pixelNoteHoldCover",
           "animations": {
             "start": "loop0000",
             "hold": "loop",
@@ -110,7 +111,7 @@
           }
         },
         "up": {
-          "assetPath": "notes/pixelNoteHoldCover",
+          "path": "notes/pixelNoteHoldCover",
           "animations": {
             "start": "loop0000",
             "hold": "loop",
@@ -118,7 +119,7 @@
           }
         },
         "right": {
-          "assetPath": "notes/pixelNoteHoldCover",
+          "path": "notes/pixelNoteHoldCover",
           "animations": {
             "start": "loop0000",
             "hold": "loop",
